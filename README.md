@@ -6,9 +6,6 @@
 - Packages needed
   - customtkinter
   - configparser
-  - os
-  - ctypes
-  - sys
 - For windows desktop only
 
 - ## Sleek Design
