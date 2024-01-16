@@ -3,7 +3,7 @@
 ## System requirements
 - OS: Windows 10 or 11
 - For windows desktop only
-- Fortnite installed
+- Fortnite installed on your main disk
 
 - ## Sleek Design
 ![image](https://github.com/ivoxprojects/ezres/assets/119132476/8b85c94c-dec8-4d6d-a1bf-fd287b39b9dd)
