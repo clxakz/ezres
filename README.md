@@ -15,6 +15,4 @@
   - Custom Resolution Scale
 
 ## Fast installation / Update
-### Choose installation type:
-- [.exe](https://github.com/ivoxprojects/ezres/releases/tag/download)
-- [.py](https://github.com/ivoxprojects/ezres)
+- [Install ezres](https://github.com/ivoxprojects/ezres/releases/tag/download)
