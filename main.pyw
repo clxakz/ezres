@@ -1,9 +1,11 @@
 #ivoxprojects 2024
+#1.1
 
 import customtkinter
 from customtkinter import *
 from tkinter import messagebox
 import config
+from icon import get_icon
 
 customtkinter.set_appearance_mode("dark")
 
@@ -11,10 +13,7 @@ root = CTk()
 root.geometry("300x300")
 root.resizable(False, False)
 root.title("EzRes")
-try:
-    root.iconbitmap("./ezres.ico")
-except Exception as ex:
-    print(str(ex))
+root.iconbitmap(get_icon())
 root.eval('tk::PlaceWindow . center')
 
 font = CTkFont("Roboto", 15, "normal")
