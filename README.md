@@ -5,7 +5,7 @@
 - For windows desktop only
 - Fortnite installed on your main disk
 
-- ## Sleek Design
+- ## Preview
 ![image](https://github.com/ivoxprojects/ezres/assets/119132476/8b85c94c-dec8-4d6d-a1bf-fd287b39b9dd)
 
 - ## Features
