@@ -1,5 +1,5 @@
 # ezres
-![icon](https://github.com/ivoxprojects/ezres/assets/119132476/99cd7dd3-9314-463d-b3cc-64f272862b3a)
+<img src="./icon.png" width=50 height=50>
 
 >[!NOTE]
 > - OS: Windows 10 or 11
