@@ -1,5 +1,5 @@
 # ezres
-![icon](https://github.com/ivoxprojects/ezres/assets/119132476/99cd7dd3-9314-463d-b3cc-64f272862b3a=250x250)
+![icon](https://github.com/ivoxprojects/ezres/assets/119132476/99cd7dd3-9314-463d-b3cc-64f272862b3a=50x50)
 ## System requirements
 - OS: Windows 10 or 11
 - For windows desktop only
