@@ -1,5 +1,5 @@
 # ezres
-<img src="./icon.png" width=50 height=50>
+<img src="./icon.png" width=100 height=100>
 
 >[!NOTE]
 > - OS: Windows 10 or 11
