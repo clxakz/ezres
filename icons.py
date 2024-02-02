@@ -31,8 +31,8 @@ def download_icons():
             if response.ok:
                 print("[ezres] Downloading icon > " + response.url)
 
-            with open(f"{path_appdata}\\{response.url.split("/")[-1]}", "wb") as file:
-                file.write(response.content)
+                with open(f"{path_appdata}\\{response.url.split("/")[-1]}", "wb") as file:
+                    file.write(response.content)
 
         print("[ezres] Done installing")
 
