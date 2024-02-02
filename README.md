@@ -10,7 +10,7 @@
 ![image](https://github.com/ivoxprojects/ezres/assets/119132476/f27aa02f-84fb-4f7e-b1e8-99606a725463)
 
 - ## Features
-  - #0969DA Apply custom resolutions
+  - `#0969DA`Apply custom resolutions
   - Choose a custom FPS Lock
   - Window modes
   - Exclusive Fullscreen
