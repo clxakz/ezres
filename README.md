@@ -2,8 +2,7 @@
 <img src="./icon.png" width=200 height=200>
 
 >[!NOTE]
-> - OS: Windows 10 or 11
-> - For windows desktop only
+> - For windows desktop only <sub>(10/11)</sub>
 > - Fortnite installed on your main disk
 
 - ## Preview
