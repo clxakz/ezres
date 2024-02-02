@@ -2,7 +2,7 @@
 <img src="./icon.png" width=200 height=200>
 
 >[!NOTE]
-> - For windows desktop only ***(10/11)***
+> - For windows desktop only **(10/11)**
 > - Fortnite **needs** to be installed on your main disk
 
 - # Preview
