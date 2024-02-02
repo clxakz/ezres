@@ -1,13 +1,10 @@
 # ezres
 ![icon](https://github.com/ivoxprojects/ezres/assets/119132476/99cd7dd3-9314-463d-b3cc-64f272862b3a)
 
-[!NOTE]
-- OS: Windows 10 or 11
-- For windows desktop only
-- Fortnite installed on your main disk
-
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
+>[!NOTE]
+> - OS: Windows 10 or 11
+> - For windows desktop only
+> - Fortnite installed on your main disk
 
 - ## Preview
 ![image](https://github.com/ivoxprojects/ezres/assets/119132476/da399d04-3292-4372-9eea-26e776db3327)
