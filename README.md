@@ -1,18 +1,19 @@
 # ezres
-![ezresimage](https://github.com/ivoxprojects/ezres/assets/119132476/c087f8d5-aaf4-4af6-b76a-0c6f552cfea3)
+![icon](https://github.com/ivoxprojects/ezres/assets/119132476/99cd7dd3-9314-463d-b3cc-64f272862b3a)
 ## System requirements
 - OS: Windows 10 or 11
 - For windows desktop only
 - Fortnite installed on your main disk
 
 - ## Preview
-![image](https://github.com/ivoxprojects/ezres/assets/119132476/8b85c94c-dec8-4d6d-a1bf-fd287b39b9dd)
+![image](https://github.com/ivoxprojects/ezres/assets/119132476/da399d04-3292-4372-9eea-26e776db3327)
+![image](https://github.com/ivoxprojects/ezres/assets/119132476/f27aa02f-84fb-4f7e-b1e8-99606a725463)
 
 - ## Features
-  - Apply custom resolution
-  - Custom FPS lock
-  - Window mode
-  - Custom Resolution Scale
+  - Apply custom resolutions
+  - Choose a custom FPS Lock
+  - Window modes
+  - Exclusive Fullscreen
 
 ## Fast installation / Update
 - [Install ezres](https://github.com/ivoxprojects/ezres/releases/tag/download)
