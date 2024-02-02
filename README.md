@@ -6,6 +6,9 @@
 - For windows desktop only
 - Fortnite installed on your main disk
 
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
 - ## Preview
 ![image](https://github.com/ivoxprojects/ezres/assets/119132476/da399d04-3292-4372-9eea-26e776db3327)
 ![image](https://github.com/ivoxprojects/ezres/assets/119132476/f27aa02f-84fb-4f7e-b1e8-99606a725463)
