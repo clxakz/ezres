@@ -3,7 +3,7 @@
 
 >[!NOTE]
 > - For windows desktop only ***(10/11)***
-> - Fortnite needs installed on your main disk
+> - Fortnite **needs** to be installed on your main disk
 
 - # Preview
 ![image](https://github.com/ivoxprojects/ezres/assets/119132476/da399d04-3292-4372-9eea-26e776db3327)
