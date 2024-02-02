@@ -5,15 +5,15 @@
 > - For windows desktop only ***(10/11)***
 > - Fortnite installed on your main disk
 
-- ## Preview
+- # Preview
 ![image](https://github.com/ivoxprojects/ezres/assets/119132476/da399d04-3292-4372-9eea-26e776db3327)
 ![image](https://github.com/ivoxprojects/ezres/assets/119132476/f27aa02f-84fb-4f7e-b1e8-99606a725463)
 
-- ## Features
-  - `#0969DA Apply custom resolutions`Apply custom resolutions
+- # Features
+  - Apply custom resolutions
   - Choose a custom FPS Lock
   - Window modes
   - Exclusive Fullscreen
 
-## Fast installation / Update
+# Fast installation / Update
 - [Install ezres](https://github.com/ivoxprojects/ezres/releases/tag/download)
