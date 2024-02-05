@@ -6,8 +6,9 @@
 > - Fortnite **needs** to be installed on your main disk
 
 - # Preview
-<img src="./icons/ezres-screenshot-darkmode.png">
-<img src="./icons/ezres-screenshot-lightmode.png">
+![ezres-screenshot-darkmode](https://github.com/ivoxprojects/ezres/assets/119132476/ce5929e2-e6b6-4e15-b335-fa8419544530)
+![ezres-screenshot-lightmode](https://github.com/ivoxprojects/ezres/assets/119132476/394f6af0-5d0c-4cff-a13f-608d4fcb5e4f)
+
 
 - # Features
   - Apply custom resolutions
