@@ -6,8 +6,8 @@
 > - Fortnite **needs** to be installed on your main disk
 
 - # Preview
-![image](https://github.com/ivoxprojects/ezres/assets/119132476/da399d04-3292-4372-9eea-26e776db3327)
-![image](https://github.com/ivoxprojects/ezres/assets/119132476/f27aa02f-84fb-4f7e-b1e8-99606a725463)
+![image](https://github.com/ivoxprojects/ezres/assets/119132476/8715439e-2bc2-4691-9a43-5f490eae8fd0)
+![image](https://github.com/ivoxprojects/ezres/assets/119132476/2e1e3493-6b79-4902-a99d-63c0dedb2267)
 
 - # Features
   - Apply custom resolutions
