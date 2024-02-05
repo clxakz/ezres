@@ -39,7 +39,7 @@ class window():
 
     class play_animation():
         def open(root=root):
-            transparency = 0
+            transparency = -0.2
             while True:
                 transparency += 0.1
                 root.attributes("-alpha", transparency)
@@ -124,8 +124,10 @@ def toggle_theme():
 toggletheme_image = CTkLabel(placeholder_usersettings, text="", image=image_theme)
 switchtoggletheme_var = StringVar()
 switch_toggletheme = CTkSwitch(placeholder_usersettings, text="", variable=switchtoggletheme_var, onvalue="light", offvalue="dark", font=("", 15, "bold"), button_color=color_text, command=toggle_theme)
+label_version = CTkLabel(placeholder_usersettings, text="2.0.3", font=("", 15, "bold"))
 toggletheme_image.pack(pady=5, padx=(10,0), side="left")
 switch_toggletheme.pack(padx=10, pady=5, side="left")
+label_version.pack(side="right", padx=10, pady=5)
 
 
 # <-- PlaceHolder Frame
