@@ -10,22 +10,21 @@ from tkinter import messagebox
 import icons; icons.download_icons() # < -- Check If Icons Are Installed
 import config
 
-
 root = CTk()
-root.geometry("350x362+800+300")
+root.geometry("350x360+800+300")
 root.overrideredirect(True)
 root.attributes("-alpha", 0.1)
 root.configure(fg_color="gray1")
 root.wm_attributes("-transparentcolor", "gray1")
 
-color_primary = ["", ""]
 color_text = ["black", "white"]
 color_background = ["gray90", "gray20"]
 color_placeholder = ["gray80", "gray16"]
 color_selected = ["gray60", "gray17"]
 
 path_appdata = getenv("APPDATA") + "\\ezres"
-root.iconbitmap(path_appdata + "\\ico.ico")
+try: root.iconbitmap(path_appdata + "\\ico.ico")
+except: pass
 
 class window():
     def get_position(event):
@@ -88,7 +87,8 @@ TitleBar.bind("<B1-Motion>", window.move_window)
 TitleBar.bind("<Button-1>", window.get_position)
 
 # < -- Titlebar : Define Icon Images
-image_icon = CTkImage(open(f"{path_appdata}\\icon.png"), open(f"{path_appdata}\\icon.png"), [25,25])
+try: image_icon = CTkImage(open(f"{path_appdata}\\icon.png"), open(f"{path_appdata}\\icon.png"), [25,25])
+except: image_icon = None
 
 # < -- TitleBar : Icon, Title, Close Button
 CloseButton = CTkButton(TitleBar, text="☓", font=("", 15), width=15, text_color=color_text, fg_color=color_background, hover_color="#c50000", command=window.play_animation.close)
@@ -108,7 +108,8 @@ placeholder_usersettings = CTkFrame(MainFrame, fg_color=color_placeholder)
 placeholder_usersettings.pack(padx=5, pady=5, fill="both")
 
 # < -- PlaceHolder Frame : Defince Icon Images
-image_theme = CTkImage(open(f"{path_appdata}\\theme_light.png"), open(f"{path_appdata}\\theme_dark.png"), [25,25])
+try: image_theme = CTkImage(open(f"{path_appdata}\\theme_light.png"), open(f"{path_appdata}\\theme_dark.png"), [25,25])
+except: image_theme = None
 
 # < -- PlaceHolder Frame : Switch, Image, Func
 def toggle_theme():
@@ -132,9 +133,14 @@ placeholder_resentries = CTkFrame(MainFrame, fg_color=color_placeholder)
 placeholder_resentries.pack(padx=5, pady=(0,5), fill="both")
 
 # < -- PlaceHolder Frame : Define Icon Images
-image_width = CTkImage(open(f"{path_appdata}\\width_light.png"), open(f"{path_appdata}\\width_dark.png"), [20,20])
-image_height = CTkImage(open(f"{path_appdata}\\height_light.png"), open(f"{path_appdata}\\height_dark.png"), [16,16])
-image_lock = CTkImage(open(f"{path_appdata}\\lock_light.png"), open(f"{path_appdata}\\lock_dark.png"), [14,14])
+try: image_width = CTkImage(open(f"{path_appdata}\\width_light.png"), open(f"{path_appdata}\\width_dark.png"), [20,20])
+except: image_width = None
+
+try: image_height = CTkImage(open(f"{path_appdata}\\height_light.png"), open(f"{path_appdata}\\height_dark.png"), [16,16])
+except: image_height = None
+
+try: image_lock = CTkImage(open(f"{path_appdata}\\lock_light.png"), open(f"{path_appdata}\\lock_dark.png"), [14,14])
+except: image_lock = None
 
 # <-- PlaceHolder Frame : Labels
 labels = ["Width", "Height", "FPS"]
@@ -156,9 +162,14 @@ placeholder_winmodes = CTkFrame(MainFrame, fg_color=color_placeholder)
 placeholder_winmodes.pack(padx=5, pady=(0,5), fill="both")
 
 # < -- PlaceHolder Frame : Define Icon Images
-image_fullscreen = CTkImage(open(f"{path_appdata}\\fullscreen_light.png"), open(f"{path_appdata}\\fullscreen_dark.png"), [20,20])
-image_windowedfullscreen = CTkImage(open(f"{path_appdata}\\windowedfullscreen_light.png"), open(f"{path_appdata}\\windowedfullscreen_dark.png"), [20,20])
-image_windowed = CTkImage(open(f"{path_appdata}\\windowed_light.png"), open(f"{path_appdata}\\windowed_dark.png"), [25,35])
+try: image_fullscreen = CTkImage(open(f"{path_appdata}\\fullscreen_light.png"), open(f"{path_appdata}\\fullscreen_dark.png"), [20,20])
+except: image_fullscreen = None
+
+try: image_windowedfullscreen = CTkImage(open(f"{path_appdata}\\windowedfullscreen_light.png"), open(f"{path_appdata}\\windowedfullscreen_dark.png"), [20,20])
+except: image_windowedfullscreen = None
+
+try: image_windowed = CTkImage(open(f"{path_appdata}\\windowed_light.png"), open(f"{path_appdata}\\windowed_dark.png"), [25,34])
+except: image_windowed = None
 
 # <-- PlaceHolder Frame : Window Modes
 radio_var = IntVar()

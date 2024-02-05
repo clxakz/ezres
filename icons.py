@@ -9,22 +9,22 @@ def download_icons():
     if not isdir(path_appdata):
         showinfo("ezres", "Installing appdata please wait")
         mkdir(path_appdata)
-        URLS = ["https://raw.githubusercontent.com/ivoxprojects/ezres/main/icon.png",
-                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/height_dark.png",
-                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/height_light.png",
-                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/width_dark.png",
-                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/width_light.png",
-                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/lock_dark.png",
-                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/lock_light.png",
-                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/fullscreen_dark.png",
-                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/fullscreen_light.png",
-                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/windowed_dark.png",
-                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/windowed_light.png",
-                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/windowedfullscreen_dark.png",
-                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/windowedfullscreen_light.png",
-                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/theme_dark.png",
-                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/theme_light.png",
-                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/ico.ico"]
+        URLS = ["https://raw.githubusercontent.com/ivoxprojects/ezres/main/icons/icon.png",
+                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/icons/height_dark.png",
+                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/icons/height_light.png",
+                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/icons/width_dark.png",
+                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/icons/width_light.png",
+                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/icons/lock_dark.png",
+                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/icons/lock_light.png",
+                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/icons/fullscreen_dark.png",
+                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/icons/fullscreen_light.png",
+                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/icons/windowed_dark.png",
+                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/icons/windowed_light.png",
+                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/icons/windowedfullscreen_dark.png",
+                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/icons/windowedfullscreen_light.png",
+                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/icons/theme_dark.png",
+                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/icons/theme_light.png",
+                "https://raw.githubusercontent.com/ivoxprojects/ezres/main/icons/ico.ico"]
         
         for url in URLS:
             response = get(url, allow_redirects=True)
