@@ -7,7 +7,7 @@
 
 - # Preview
 <img src="./icons/ezres-screenshot-darkmode.png">
-![image](https://github.com/ivoxprojects/ezres/assets/119132476/2e1e3493-6b79-4902-a99d-63c0dedb2267)
+<img src="./icons/ezres-screenshot-lightmode.png">
 
 - # Features
   - Apply custom resolutions
