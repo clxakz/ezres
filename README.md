@@ -7,8 +7,7 @@
 
 - # Preview
 ![image](https://github.com/ivoxprojects/ezres/assets/119132476/aa7847ce-7855-47fc-b6f8-5a5b4df71bde)
-
-
+![image](https://github.com/ivoxprojects/ezres/assets/119132476/2a9ea555-8b15-4e25-83c5-0d3250f7e4a0)
 
 - # Features
   - Apply custom resolutions
