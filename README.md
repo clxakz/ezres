@@ -1,5 +1,5 @@
 # ezres
-<img src="./icon.png" width=200 height=200>
+<img src="./icons/icon.png" width=200 height=200>
 
 >[!NOTE]
 > - For windows desktop only **(10/11)**
