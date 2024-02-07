@@ -10,6 +10,8 @@ from tkinter import messagebox
 import icons; icons.download_icons() # < -- Check If Icons Are Installed
 import config
 
+version = "2.0.4"
+
 root = CTk()
 root.geometry("350x360+800+300")
 root.overrideredirect(True)
@@ -20,7 +22,6 @@ root.wm_attributes("-transparentcolor", "gray1")
 color_text = ["black", "white"]
 color_background = ["gray90", "gray20"]
 color_placeholder = ["gray80", "gray16"]
-color_selected = ["gray60", "gray17"]
 
 path_appdata = getenv("APPDATA") + "\\ezres"
 try: root.iconbitmap(path_appdata + "\\ico.ico")
@@ -124,7 +125,7 @@ def toggle_theme():
 toggletheme_image = CTkLabel(placeholder_usersettings, text="", image=image_theme)
 switchtoggletheme_var = StringVar()
 switch_toggletheme = CTkSwitch(placeholder_usersettings, text="", variable=switchtoggletheme_var, onvalue="light", offvalue="dark", font=("", 15, "bold"), button_color=color_text, command=toggle_theme)
-label_version = CTkLabel(placeholder_usersettings, text="2.0.3", font=("", 15, "bold"))
+label_version = CTkLabel(placeholder_usersettings, text=version, font=("", 15, "bold"))
 toggletheme_image.pack(pady=5, padx=(10,0), side="left")
 switch_toggletheme.pack(padx=10, pady=5, side="left")
 label_version.pack(side="right", padx=10, pady=5)

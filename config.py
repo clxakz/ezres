@@ -31,12 +31,9 @@ class GameConfig():
         gameconfig["/Script/FortniteGame.FortGameUserSettings"]["lastuserconfirmedresolutionsizex"] = str(resx)
         gameconfig["/Script/FortniteGame.FortGameUserSettings"]["lastuserconfirmedresolutionsizey"] = str(resy)
         gameconfig["/Script/FortniteGame.FortGameUserSettings"]["FrameRateLimit"] = "{:.6f}".format(int(fps))
-        try:
-            gameconfig["/Script/FortniteGame.FortGameUserSettings"]["FullscreenMode"] = str(windowmode)
-        except Exception as ex:
-            print(str(ex))
         gameconfig["/Script/FortniteGame.FortGameUserSettings"]["lastconfirmedfullscreenmode"] = str(windowmode)
         gameconfig["/Script/FortniteGame.FortGameUserSettings"]["preferredfullscreenmode"] = str(windowmode)
+        gameconfig["/Script/FortniteGame.FortGameUserSettings"]["FullscreenMode"] = str(windowmode)
 
         with open(path_gameusersettings, 'w') as file:
             gameconfig.write(file)
