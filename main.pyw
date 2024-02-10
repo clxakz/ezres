@@ -10,9 +10,10 @@ from tkinter import messagebox
 import icons; icons.download_icons() # < -- Check If Icons Are Installed
 import config
 
-version = "2.0.4"
+version = "2.0.5"
 
 root = CTk()
+root.title("ezres")
 root.geometry("350x360+800+300")
 root.overrideredirect(True)
 root.attributes("-alpha", 0.1)
