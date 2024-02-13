@@ -22,3 +22,6 @@
 
 # Fast installation / Update
 - [Install ezres](https://github.com/ivoxprojects/ezres/releases/tag/download)
+
+### Install Requirements
+> pip install -r requirements.txt
