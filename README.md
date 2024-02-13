@@ -5,6 +5,10 @@
 > - For windows desktop only **(10/11)**
 > - Fortnite **needs** to be installed on your main disk
 
+> [!WARNING]
+> Windows might detect ezres.exe as a virus, if it does
+> head over to your antivirus settings page and mark ezres as a non-threat.
+
 - # Preview
 ![image](https://github.com/ivoxprojects/ezres/assets/119132476/45dc123e-3e01-4fba-83fe-7d3e233ea6f2)
 ![image](https://github.com/ivoxprojects/ezres/assets/119132476/ce4850fa-f2c7-4b2c-a5b7-1027f6a4b2ea)
