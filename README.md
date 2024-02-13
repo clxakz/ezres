@@ -12,6 +12,7 @@
 - # Preview
 ![image](https://github.com/ivoxprojects/ezres/assets/119132476/45dc123e-3e01-4fba-83fe-7d3e233ea6f2)
 ![image](https://github.com/ivoxprojects/ezres/assets/119132476/ce4850fa-f2c7-4b2c-a5b7-1027f6a4b2ea)
+![Untitled](https://github.com/ivoxprojects/ezres/assets/119132476/aae9c85e-a8bb-4a0d-9bb8-0e7d0fd8b360)
 
 - # Features
   - Apply custom resolutions
