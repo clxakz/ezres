@@ -6,7 +6,7 @@
 > - Fortnite **needs** to be installed on your main disk
 
 > [!WARNING]
-> Windows may identify ezres.exe as malicious software. In such instances, it is recommended to navigate to your antivirus settings page and mark ezres.exe as harmless.
+> Windows may identify ezres.exe as malicious software. It is recommended to navigate to your antivirus settings page and mark ezres.exe as harmless.
 
 - # Preview
 ![image](https://github.com/ivoxprojects/ezres/assets/119132476/45dc123e-3e01-4fba-83fe-7d3e233ea6f2)
